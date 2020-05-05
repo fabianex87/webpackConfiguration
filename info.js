@@ -117,4 +117,7 @@
  * git push
  * al fare git push ti puo apparire l'alert di git
  * 
+ * per mettere la tua app a github, rinomini dist in doc
+ * https://github.com/fabianex87/wepackConfiguration/settings
+ * 
  */

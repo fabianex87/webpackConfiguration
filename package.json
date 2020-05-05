@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack",
-    "build": "rm -rf dist && webpack --config webpack.config.prod.js",
-    "build2": "webpack --config webpack.config.prod.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "build2": "rm -rf dist && webpack --config webpack.config.prod.js",
     "start": "webpack-dev-server --open --port=8080",
     "nodemon": "nodemon src dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
