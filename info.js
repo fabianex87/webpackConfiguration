@@ -106,7 +106,15 @@
  * dist e node_modules
  * su github pages possiamo mettere il nostro sito web finche sia html, js, css
  * 
- * 
- * 
+ * git remote add origin https://github.com/fabianex87/wepackConfiguration.git
+ * aggiungi un origine remoto al nostro repositorio
+ * cioè i nostri cambi andranno a quell'url
+ * git push -u origin master
+ * carica tutti i miei cambi all'origine cioè a quell'url
+ * origin è una maniera per identifiare il repositorio
+ * -u stabilisce origin come il mio repositorio nel cloud per default
+ * quindi una volta fatto quello, le prossime volte devi fare solo:
+ * git push
+ * al fare git push ti puo apparire l'alert di git
  * 
  */
